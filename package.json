@@ -1,0 +1,24 @@
+{
+  "name": "demo-socket",
+  "version": "1.0.0",
+  "description": "Demo a social application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuongdqdev/demo-socket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuongdqdev/demo-socket/issues"
+  },
+  "homepage": "https://github.com/cuongdqdev/demo-socket#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}

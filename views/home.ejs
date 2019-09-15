@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Demo Socket IO</title>
+        <script src="jquery.js"></script>
+        <script src="socket.io/socket.io.js"></script>
+        <script>
+            // 2. Gửi kết nối lên Server
+            var socket = io('http://localhost:3000');
+            
+            $(document).ready(function(){
+                //alert('jquery nè');
+                $("#mrA").click(function(){
+                    //alert(1);
+                    // 1. Client gửi data lên Server
+                    socket.emit('CSD','CSD - Hello');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="mrA">Click send</div>
+    </body>
+</html>
